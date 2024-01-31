@@ -1,5 +1,6 @@
 .container{
-    width: 607px;
+    width: 100vw;
+    max-width: 607px;
     min-height: 500px;
     height: auto;
     margin: auto;
@@ -20,7 +21,8 @@
 
 .top-bar input{
     display: flex;
-    width: 362px;
+    width: 60vw;
+    max-width: 362px;
     height: 78px;
     background-color: #ebfffc;
     border: none;
@@ -162,4 +164,8 @@
   .forecast-item > div {
     flex: 1; 
     text-align: center; 
+}
+
+.forecast-container{
+    margin-bottom: '10px';
 }
